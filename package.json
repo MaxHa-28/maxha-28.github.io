@@ -1,0 +1,19 @@
+{
+  "name": "maxha-28.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaxHa-28/maxha-28.github.io.git"
+  },
+  "keywords": [],
+  "author": "Max Hajek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaxHa-28/maxha-28.github.io/issues"
+  },
+  "homepage": "https://github.com/MaxHa-28/maxha-28.github.io#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.13"
+  }
+}
