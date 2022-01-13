@@ -3,14 +3,16 @@
 
 {%- include head.html -%}
 
-<body>
+<body class="bg-white dark:bg-gray-900 flex flex-col h-screen">
+  <div class="h-[48px]"></div>
   {%- include header.html -%}
-  <main class="page-content" aria-label="Content">
-    <div class="wrapper">
+  <main aria-label="Content" class="flex-grow">
+    <div class="container max-w-[1100px] mx-auto p-[16px] md:p-[32px]">
       {{ content }}
     </div>
   </main>
   {%- include footer.html -%}
+  <script src="{{'assets/main.js' | relative_url}}"></script>
 </body>
 
 </html>

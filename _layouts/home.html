@@ -2,22 +2,21 @@
 layout: default
 ---
 
-<div class="home">
-  {%- if page.title -%}
-  <h1 class="page-heading ">{{ page.title }}</h1>
-  {%- endif -%}
+<div class="text-gray-900 dark:text-white text-center sm:text-left pt-[20px]">
 
   {{ content }}
 
   {%- if site.posts.size > 0 -%}
-  <h2 class="text-blue-500 text-5xl">{{ page.list_title | default: "Posts" }}</h2>
-  <ul class="post-list">
+  <h2 class="mt-[60px] text-2xl text-gray-900 dark:text-white">Latest Posts</h2>
+  <ul class="my-7">
     {%- for post in site.posts -%}
     <li>
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-      <span class="post-meta">{{ post.date | date: date_format }}</span>
-      <h3>
-        <a class="post-link" href="{{ post.url | relative_url }}">
+      <span class="text-gray-500 dark:text-gray-400">{{ post.date | date: date_format }}</span><span
+        class="mx-2 text-black dark:text-gray-200">&#9900;</span>
+      <h3 class="inline">
+        <a class="text-xl text-gray-700 dark:text-gray-200 underline underline-offset-2 decoration-pink-500"
+          href="{{ post.url | relative_url }}">
           {{ post.title | escape }}
         </a>
       </h3>
@@ -27,8 +26,6 @@ layout: default
     </li>
     {%- endfor -%}
   </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ " /feed.xml" | relative_url }}">via RSS</a></p>
   {%- endif -%}
 
 </div>

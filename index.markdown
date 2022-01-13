@@ -4,4 +4,6 @@
 
 layout: home
 ---
-This is my home
+
+tl;dr hello there, I'm Max and I am new to blogging. Maybe this will work
+out ;)

@@ -6,14 +6,18 @@
     "type": "git",
     "url": "git+https://github.com/MaxHa-28/maxha-28.github.io.git"
   },
+  "scripts": {
+    "watch:css": "tailwindcss -i ./src/index.css -o ./assets/style.css --watch",
+    "watch:js": "./node_modules/.bin/esbuild ./src/index.js --bundle --outfile=./assets/main.js --watch",
+    "watch": "NODE_ENV=development concurrently \"npm run watch:css\"  \"npm run watch:js\""
+  },
   "keywords": [],
   "author": "Max Hajek",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/MaxHa-28/maxha-28.github.io/issues"
-  },
-  "homepage": "https://github.com/MaxHa-28/maxha-28.github.io#readme",
+  "license": "",
   "devDependencies": {
+    "@tailwindcss/typography": "^0.5.0",
+    "concurrently": "^7.0.0",
+    "esbuild": "^0.14.11",
     "tailwindcss": "^3.0.13"
   }
 }
