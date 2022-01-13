@@ -23,7 +23,7 @@ tagline: A blog dedicated to programming and other stuff
 description: >- # this means to ignore newlines until url:
   Welcome to my personal blog. I write and make tutorials about programming,
   GNU/Linux and other less technical topics.
-url: maxhajek.com
+url: https://maxhajek.com
 twitter:
   username: maxhajek
   card: summary
