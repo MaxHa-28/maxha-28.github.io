@@ -1,0 +1,9 @@
+---
+layout: post
+title: "my first post"
+date: 2022-01-12 13:58:01 +0100
+categories: blogging
+published: true
+---
+
+Welcome on my blog - I am still writing on my first real post :)
