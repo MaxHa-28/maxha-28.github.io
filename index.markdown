@@ -5,5 +5,5 @@
 layout: home
 ---
 
-tl;dr hello there, I'm Max and I am new to blogging. Maybe this will work
+tl;dr hello there, I'm Max and I am new to blogging. Maybe it will work
 out ;)
