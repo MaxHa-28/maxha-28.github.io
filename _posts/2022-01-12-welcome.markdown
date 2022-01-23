@@ -1,9 +1,27 @@
 ---
 layout: post
-title: "my first post"
+title: "My excuse to start blogging"
 date: 2022-01-12 13:58:01 +0100
 categories: blogging
 published: true
 ---
 
-Welcome on my blog - I am still writing on my first real post :)
+Well, now my blog is online for more than one month and I still haven't written a
+single post. Why is that? Maybe I am clinging to the idea of being original and
+to write a perfectly interesting article about a trending topic. But I am
+probably just looking for a noble excuse to procrastinate. So this why I start
+with exactly that question.
+
+How do I start a blog?
+
+> Just do it. Don't let your dreams be dreams.
+
+&mdash; **Shia LaBeouf** (Motivational memer)
+
+Here I am quoting Shia LaBeouf and actually having fun writing this. Maybe
+writing is not so hard after all and I have to admit that there is some truth to
+Shia's statement.
+
+Maybe it is that easy. Here it is, the start of my blog. Welcome strangers!
+
+Let's see where this will go in the future!
