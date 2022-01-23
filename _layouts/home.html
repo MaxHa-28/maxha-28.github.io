@@ -2,20 +2,23 @@
 layout: default
 ---
 
-<div class="text-gray-900 dark:text-white text-center sm:text-left pt-[20px]">
-
-  {{ content }}
-
+<div class="pt-[20px]">
+  <div class="flex justify-center">
+    <div class="prose lg:prose-xl dark:prose-invert">
+      {{ content }}
+    </div>
+  </div>
   {%- if site.posts.size > 0 -%}
-  <h2 class="mt-[60px] text-2xl text-gray-900 dark:text-white">Latest Posts</h2>
-  <ul class="my-7">
+  <h2 class="mt-[60px] text-center text-2xl text-gray-900 dark:text-white">Latest Posts</h2>
+  <ul class="my-7 text-center">
     {%- for post in site.posts -%}
     <li>
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       <span class="text-gray-500 dark:text-gray-400">{{ post.date | date: date_format }}</span><span
-        class="mx-2 text-black dark:text-gray-200">&#9900;</span>
+        class="mx-2 text-black dark:text-gray-200">
+        ></span>
       <h3 class="inline">
-        <a class="text-xl text-gray-700 dark:text-gray-200 underline underline-offset-2 decoration-pink-500"
+        <a class="text-center text-xl text-gray-700 dark:text-gray-200 underline underline-offset-2 decoration-pink-500"
           href="{{ post.url | relative_url }}">
           {{ post.title | escape }}
         </a>

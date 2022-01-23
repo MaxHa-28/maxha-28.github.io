@@ -19,11 +19,9 @@ layout: default
     </p>
   </header>
   <div class="max-w-[675px] mx-auto">
-    <div class="text-gray-500 dark:text-gray-400" itemprop="articleBody">
+    <div class="prose lg:prose-xl dark:prose-invert" itemprop="articleBody">
       {{ content }}
     </div>
   </div>
   <a href="{{ page.url | relative_url }}" hidden></a>
-
-  <h5 class="my-[60px] text-gray-500 dark:text-gray-400 text-center text-lg italic">Thanks for reading!</h5>
 </article>
