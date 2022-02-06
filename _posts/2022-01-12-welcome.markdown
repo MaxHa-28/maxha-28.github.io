@@ -3,7 +3,7 @@ layout: post
 title: "My excuse to start blogging"
 date: 2022-01-12 13:58:01 +0100
 categories: blogging
-published: false
+published: true
 ---
 
 Well, now my blog is online for more than one month and I still haven't written a
